@@ -1,16 +1,19 @@
 # floor_stream_app
 
-A new Flutter project.
+Este é um exemplo de aplicativo Flutter que utiliza o framework Floor para persistência de dados e o padrão ViewModel para gerenciamento de estado. O aplicativo permite adicionar pessoas a uma tabela e exibir a lista de pessoas armazenadas.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Dependências
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter
+- Floor
+- Provider
+- Build Runner
+- Sqflite
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Funcionalidades
+
+- Adicionar uma pessoa com nome e idade.
+- Exibir a lista de pessoas armazenadas no banco de dados.
+
